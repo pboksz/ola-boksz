@@ -1,0 +1,14 @@
+%header{ role: 'banner' }
+  .left
+    .name= t('header.name')
+    .links
+      = link_to root_path do
+        = icon('globe')
+      = link_to t('header.linkedin_url'), target: '_blank' do
+        = icon('linkedin-square')
+      %a{ href: "mailto:#{t('header.email')}" }
+        = icon('envelope')
+  .center
+    .gravatar= image_tag '', alt: t('header.name')
+  .right
+    .title= t('header.travel')
