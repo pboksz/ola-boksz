@@ -20,6 +20,15 @@ gem 'jquery-rails'
 # Use haml for views
 gem 'haml-rails'
 
+group :development do
+  gem 'travis'
+end
+
+group :production do
+  gem 'newrelic_rpm'
+  gem 'rails_12factor'
+end
+
 group :development, :production do
   gem 'unicorn'
 end

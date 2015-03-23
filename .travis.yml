@@ -1,0 +1,16 @@
+language: ruby
+bundler_args: --without development
+rvm:
+  - 2.2.0
+script:
+  - echo
+deploy:
+  provider: heroku
+  strategy: git
+  api_key:
+    secure: ZK7dy03HazxTuA1pPZvlaWzjDSynhPxIXGI6BWmJ7dmxZmjvORmW4FObMlIHX0dKhAzow3SgcDI4W93005WFs9dIPOEmT37lCkak4KHuW96W2lX3qgon1qQYTxj3nBB9Ud7x4ZBkYyLcxEZLU1k0luOEiPeQEmGbsBBXOPGTX2I=
+  app: basia-zawisla
+  on:
+    repo: pboksz/basia-zawisla
+notifications:
+  email: false
