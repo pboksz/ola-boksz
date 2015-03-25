@@ -37,6 +37,8 @@ europe = [
   ['Berlin, Germany',52.5075419,13.4251364]
   ['Paris, France',48.8588589,2.3470599]
   ['Fontainebleau, France',48.4235795,2.6817304]
+  ['Liège, Belgium',50.6246401,5.5990901]
+  ['Essen, Germany',51.4409073,7.0160182]
   ['Barcelona, Spain',41.39479,2.1487679]
   ['London, England',51.5286416,-0.1015987]
   ['Heviz, Hungary',46.796554,17.182532]
