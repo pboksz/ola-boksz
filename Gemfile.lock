@@ -93,6 +93,8 @@ GEM
       haml (>= 4.0.6, < 5.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
+    heroku-deflater (0.5.3)
+      rack (>= 1.4.5)
     highline (1.7.1)
     hike (1.2.3)
     html2haml (2.0.0)
@@ -222,6 +224,7 @@ DEPENDENCIES
   compass-rails
   font-awesome-sass
   haml-rails
+  heroku-deflater
   jquery-rails
   rails (= 4.2.0)
   rails_12factor
