@@ -15,7 +15,6 @@ america = [
   ['Washington DC, USA',38.8993487,-77.0145665]
   ['Orlando, Florida, USA',28.4811689,-81.36875]
   ['Los Angeles, California, USA',34.0204989,-118.4117325]
-  ['Orlando, Florida, USA',28.5330213,-81.3976497]
   ['Columbus, Ohio, USA',39.9684278,-82.9996021]
 ]
 
