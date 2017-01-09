@@ -15,11 +15,14 @@ america = [
   ['Washington DC, USA',38.8993487,-77.0145665]
   ['Orlando, Florida, USA',28.4811689,-81.36875]
   ['Los Angeles, California, USA',34.0204989,-118.4117325]
+  ['Orlando, Florida, USA',28.5330213,-81.3976497]
+  ['Columbus, Ohio, USA',39.9684278,-82.9996021]
 ]
 
 canada = [
   ['Montreal, Quebec, Canada',45.5601451,-73.7120832]
   ['Quebec, Quebec, Canada',46.8580074,-71.3460728]
+  ['Toronto, Ontario, Canada',43.6627069,-79.4094335]
 ]
 
 carribean = [
@@ -34,6 +37,7 @@ europe = [
   ['Opoczno, Poland',51.377272,20.2747472]
   ['Stalowa Wola, Poland',50.5661941,22.0162866]
   ['Suwałki, Poland',54.1027135,22.9291278]
+  ['Copenhagen, Denmark',55.6712674,12.5608388]
   ['Berlin, Germany',52.5075419,13.4251364]
   ['Paris, France',48.8588589,2.3470599]
   ['Fontainebleau, France',48.4235795,2.6817304]
