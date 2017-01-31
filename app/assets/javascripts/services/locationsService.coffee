@@ -27,6 +27,7 @@ canada = [
 carribean = [
   ['Puerto Plata, Dominican Republic',19.7892025,-70.686083]
   ['Punta Cana, Dominican Republic',18.6401973,-68.4726927]
+  ['Puerto Vallarta, Mexico',20.7310217,-105.3128404]
 ]
 
 europe = [
