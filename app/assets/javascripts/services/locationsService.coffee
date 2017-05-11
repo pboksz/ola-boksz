@@ -61,4 +61,7 @@ europe = [
   ['Amsterdam, Netherlands',52.3713494,4.8929922]
   ['Birmingham, England',52.4826573,-1.8917504]
   ['Saint Paul\'s Bay, Malta',35.935682,14.3817163]
+  ['Florence, Italy',43.7731506,11.2561031]
+  ['Rome, Italy',41.8902507,12.4922566]
+  ['Bologna, Italy',44.4937381,11.3430177]
 ]
