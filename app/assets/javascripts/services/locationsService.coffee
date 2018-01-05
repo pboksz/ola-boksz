@@ -16,6 +16,7 @@ america = [
   ['Orlando, Florida, USA',28.4811689,-81.36875]
   ['Los Angeles, California, USA',34.0204989,-118.4117325]
   ['Columbus, Ohio, USA',39.9684278,-82.9996021]
+  ['Kansas City, Kansas, USA',39.0932013,-94.620041]
 ]
 
 canada = [
