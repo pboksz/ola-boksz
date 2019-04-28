@@ -3,11 +3,11 @@
     .name= t('header.name')
     .links
       = link_to root_path do
-        = icon('globe')
+        = icon('fas', 'globe-americas')
       = link_to t('header.linkedin_url'), target: '_blank' do
-        = icon('linkedin-square')
+        = icon('fab', 'linkedin')
       %a{ href: "mailto:#{t('header.email')}" }
-        = icon('envelope')
+        = icon('far', 'envelope')
   .center
     .avatar= image_tag 'avatar.jpg', alt: t('header.name')
   .right
