@@ -77,4 +77,5 @@ europe = [
   ['Llandudno, Wales',53.3230819,-3.8288597]
   ['Bangor, Wales',53.2275204,-4.129852]
   ['Huddersfield, England',53.6464566,-1.7826595]
+  ['Bremen, Germany',53.0787893,8.8052928]
 ]
