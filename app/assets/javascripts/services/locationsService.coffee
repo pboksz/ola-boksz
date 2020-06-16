@@ -1,5 +1,5 @@
 class window.Location
-  @all: -> [].concat america, canada, carribean, europe
+  @all: -> [].concat america, asia, canada, carribean, europe
 
 america = [
   ['Fair Lawn, New Jersey, USA',40.9364255,-74.118745]
@@ -17,6 +17,10 @@ america = [
   ['Los Angeles, California, USA',34.0204989,-118.4117325]
   ['Columbus, Ohio, USA',39.9684278,-82.9996021]
   ['Kansas City, Kansas, USA',39.0932013,-94.620041]
+]
+
+asia = [
+  ['Ko Yao Yai, Thailand',7.9824535,98.5690027]
 ]
 
 canada = [
