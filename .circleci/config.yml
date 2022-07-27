@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/ruby:2.4-node-browsers
+    - image: circleci/ruby:2.4.2-node-browsers
       environment:
         RAILS_ENV: test
     - image: circleci/mysql:5.6-ram
@@ -59,11 +59,12 @@ jobs:
 
   deploy:
     docker:
-    - image: circleci/ruby:2.4-node-browsers
+    - image: circleci/ruby:2.4.2-node-browsers
       environment:
         RAILS_ENV: test
 
     working_directory: ~/repo
+
     environment:
       HEROKU_APP: "pboksz/basia-zawisla"
 
