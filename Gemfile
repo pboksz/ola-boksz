@@ -13,12 +13,18 @@ gem 'jquery-rails'
 gem 'haml-rails'
 
 group :development do
-  gem 'travis'
+  gem 'spring'
 end
 
 group :production do
   gem 'heroku-deflater'
   gem 'rails_12factor'
+end
+
+group :development, :test do
+  gem 'pry'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
 end
 
 group :development, :production do
