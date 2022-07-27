@@ -5,11 +5,11 @@ jobs:
     - image: circleci/ruby:2.4.2-node-browsers
       environment:
         RAILS_ENV: test
-#    - image: circleci/mysql:5.6-ram
-#      environment:
-#        MYSQL_DATABASE: basia_zawisla_test
-#        MYSQL_ALLOW_EMPTY_PASSWORD: true
-#        MYSQL_ROOT_HOST: "%"
+    - image: circleci/mysql:5.6-ram
+      environment:
+        MYSQL_DATABASE: basia_zawisla_test
+        MYSQL_ALLOW_EMPTY_PASSWORD: true
+        MYSQL_ROOT_HOST: "%"
 
     working_directory: ~/repo
 
