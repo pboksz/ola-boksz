@@ -17,6 +17,8 @@ america = [
   ['Los Angeles, California, USA',34.0204989,-118.4117325]
   ['Columbus, Ohio, USA',39.9684278,-82.9996021]
   ['Kansas City, Kansas, USA',39.0932013,-94.620041]
+  ['Kalamazoo, Michigan, USA',42.2342073,-85.5524086]
+  ['South Haven, Michigan, USA',42.4045368,-86.2822572]
 ]
 
 asia = [
