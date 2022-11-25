@@ -1,4 +1,4 @@
-ruby '2.4.2'
+ruby '2.7.6'
 source 'https://rubygems.org'
 
 gem 'rails', '~> 5.2.0'
@@ -14,11 +14,6 @@ gem 'haml-rails'
 
 group :development do
   gem 'spring'
-end
-
-group :production do
-  gem 'heroku-deflater'
-  gem 'rails_12factor'
 end
 
 group :development, :test do
