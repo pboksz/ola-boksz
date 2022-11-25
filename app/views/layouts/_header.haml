@@ -4,10 +4,6 @@
     .links
       = link_to root_path do
         = icon('fas', 'globe-americas')
-      = link_to t('header.linkedin_url'), target: '_blank' do
-        = icon('fab', 'linkedin')
-      %a{ href: "mailto:#{t('header.email')}" }
-        = icon('far', 'envelope')
   .center
     .avatar= image_tag 'avatar.jpg', alt: t('header.name')
   .right
