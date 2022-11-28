@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  browser-tools: circleci/browser-tools@1.1
-
 jobs:
   build:
     docker:
@@ -13,7 +10,6 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - browser-tools/install-browser-tools
       - checkout
 
       - restore_cache:
@@ -42,18 +38,15 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - browser-tools/install-browser-tools
       - checkout
 
       - run:
+          name: Install fly.io
+          command: curl -L https://fly.io/install.sh | sh
+
+      - run:
           name: Deploy to fly.io
-          command: |
-            curl -L https://fly.io/install.sh | sh
-            export FLYCTL_INSTALL="/root/.fly"
-            export PATH="$FLYCTL_INSTALL/bin:$PATH"
-            sh -c "flyctl deploy"
-            sh -c "flyctl info"
-            exit 0
+          command: flyctl deploy
 
 workflows:
   version: 2
