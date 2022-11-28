@@ -16,10 +16,6 @@ jobs:
       - browser-tools/install-browser-tools
       - checkout
 
-      - run:
-          name: Install QT Webkit
-          command: sudo apt-get -y install libqt5webkit5-dev libqt5webkit5
-
       - restore_cache:
           keys:
             - gem-cache-{{ checksum "Gemfile.lock" }}
