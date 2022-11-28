@@ -41,12 +41,11 @@ jobs:
       - checkout
 
       - run:
-          name: Install fly.io
-          command: curl -L https://fly.io/install.sh | sh
-
-      - run:
           name: Deploy to fly.io
-          command: sh -c "flyctl deploy --app FLY_APP_NAME --access-token $FLY_API_TOKEN"
+          command: | 
+            curl -L https://fly.io/install.sh | sh
+            sh -c "flyctl deploy --app FLY_APP_NAME --access-token $FLY_API_TOKEN"
+            sh -c "flyctl info"
 
 workflows:
   version: 2
