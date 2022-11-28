@@ -46,7 +46,7 @@ jobs:
 
       - run:
           name: Deploy to fly.io
-          command: flyctl deploy
+          command: sh -c "flyctl deploy --app FLY_APP_NAME --access-token $FLY_API_TOKEN"
 
 workflows:
   version: 2
