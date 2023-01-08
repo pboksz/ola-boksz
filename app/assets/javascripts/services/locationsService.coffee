@@ -8,6 +8,7 @@ america = [
 
 europe = [
   ['Gdańsk, Poland',54.3610873,18.6900271]
+  ['Sopot, Poland',54.4463238,18.5714154]
   ['Wrexham, Wales',53.0510857,-2.988168]
   ['Chester, England',53.1924889,-2.8878817]
   ['Liverpool, England',53.4077866,-2.990309]
