@@ -11,6 +11,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'mimemagic', '~> 0.3'
 gem 'jquery-rails'
 gem 'haml-rails'
+gem 'momentjs-rails'
+gem 'moment-timezone-rails'
 
 group :development do
   gem 'spring'
