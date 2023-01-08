@@ -6,4 +6,15 @@ en:
 
   header:
     name: 'Hannah Boksz'
-    travel: 'World Travel Markers'
+
+  travels:
+    title: 'World Travel Markers'
+
+  clock:
+    title: 'Birthday Countup'
+    years: 'Years'
+    months: 'Months'
+    days: 'Days'
+    hours: 'Hours'
+    minutes: 'Minutes'
+    seconds: 'Seconds'
