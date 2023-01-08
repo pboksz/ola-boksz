@@ -3,6 +3,10 @@ class HomeController < ApplicationController
 
   end
 
+  def clock
+
+  end
+
   def sitemap
     render :sitemap, layout: false
   end

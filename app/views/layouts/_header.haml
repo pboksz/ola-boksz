@@ -4,6 +4,8 @@
     .links
       = link_to root_path do
         = icon('fas', 'globe-americas')
+      = link_to clock_path do
+        = icon('fas', 'clock')
   .center
     .avatar= image_tag 'avatar.jpg', alt: t('header.name')
   .right
