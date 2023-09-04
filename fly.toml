@@ -1,6 +1,6 @@
-# fly.toml file generated for haniaboksz on 2022-11-25T12:29:49Z
+# fly.toml file generated for olaboksz on 2022-11-25T12:29:49Z
 
-app = "haniaboksz"
+app = "olaboksz"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
