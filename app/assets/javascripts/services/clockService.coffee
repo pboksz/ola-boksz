@@ -4,7 +4,7 @@ $(document).on 'ready page:load', ->
 
 updateClock = ->
   dateNow = moment()
-  dateBirth = moment.tz('2021-09-07 07:49:00', 'Europe/London')
+  dateBirth = moment.tz('2023-08-28 21:16:00', 'Europe/London')
   duration = moment.duration(dateNow.diff(dateBirth))
 
   years = Math.floor(duration.asYears())
