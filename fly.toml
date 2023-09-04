@@ -1,4 +1,4 @@
-# fly.toml file generated for olaboksz on 2022-11-25T12:29:49Z
+# fly.toml file generated for olaboksz on 2023-09-04T15:53:54+01:00
 
 app = "olaboksz"
 kill_signal = "SIGINT"
