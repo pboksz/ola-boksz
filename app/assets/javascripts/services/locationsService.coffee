@@ -12,4 +12,6 @@ europe = [
   ['Whinfell, England',54.6354879,-2.6534459]
   ['Narberth, Wales',51.781983,-4.8085441]
   ['Saltdean, England',50.8030489,-0.0574974]
+  ['Kraków, Poland',50.0467656,20.0048731]
+  ['Zakopane, Poland',49.2998813,19.9615111]
 ]
